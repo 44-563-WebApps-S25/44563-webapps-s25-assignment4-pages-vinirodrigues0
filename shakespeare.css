@@ -68,3 +68,26 @@
     background-color: lightcoral;
     color: white;
 }
+
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.navbar-horizontal li {
+    float:left; 
+    color:#000;
+    background-color: lightblue;
+}
+
+ul.navbar-horizontal a {
+    display:block;
+    padding:8px
+}
+
+ul.navbar-horizontal a:hover {
+    background-color: #555;
+    color:white;
+}
+    
